@@ -1,0 +1,6 @@
+/plan I want <goal>.
+Context: <files or modules involved>.
+Don't touch: <what cannot change>.
+Done when: <tests or command that must pass>.
+Before proposing the plan, read the relevant code and ask me anything that is unclear.
+The plan must list files to change, steps in order, risks and how to verify each step.

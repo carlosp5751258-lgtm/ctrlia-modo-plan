@@ -1,0 +1,6 @@
+/plan Quiero <objetivo>.
+Contexto: <archivos o módulos implicados>.
+No toques: <lo que no se puede cambiar>.
+Hecho cuando: <tests o comando que debe pasar>.
+Antes de proponer el plan, lee el código relevante y pregúntame lo que no esté claro.
+El plan debe listar archivos a cambiar, pasos en orden, riesgos y cómo verificar cada paso.
