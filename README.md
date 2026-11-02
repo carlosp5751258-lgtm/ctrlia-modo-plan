@@ -2,6 +2,8 @@
 
 [Read in English](README.en.md)
 
+English version: [README.en.md](README.en.md) (archivos en `en/`).
+
 Los archivos de la receta de Ctrl+IA sobre el modo plan: ajustes para que un proyecto empiece siempre en modo plan y guarde los planes en el repo, la opción de limpiar el contexto al aprobar, una plantilla de prompt para pedir un buen plan y un script que comprueba que en modo plan no se escribe nada.
 
 La receta completa (Shift+Tab, `/plan`, Ctrl+G, las opciones de aprobación, `plansDirectory`, `opusplan` y cuándo no usarlo):
@@ -15,7 +17,7 @@ La receta completa (Shift+Tab, `/plan`, Ctrl+G, las opciones de aprobación, `pl
 | --- | --- |
 | `.claude/settings.json` | Ajustes de proyecto: `defaultMode: "plan"` y planes guardados en `docs/plans` |
 | `settings-usuario.json` | `showClearContextOnPlanAccept: true` para `~/.claude/settings.json` |
-| `plantilla-plan.txt` | Prompt de planificación con objetivo, contexto, qué no tocar y criterio de «hecho» (en inglés: `plan-template.en.txt`) |
+| `plantilla-plan.txt` | Prompt de planificación con objetivo, contexto, qué no tocar y criterio de «hecho» (en inglés: `en/plantilla-plan.txt`) |
 | `probar-modo-plan.sh` | Crea un repo desechable, pide en modo plan crear `nuevo.txt` y comprueba que no se creó |
 
 ## Cómo usarlo
